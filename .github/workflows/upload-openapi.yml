@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: openapi-docs
-          path: accounts/src/main/resources/static/api-docs.yml
+          path: src/main/resources/static/api-docs.json
