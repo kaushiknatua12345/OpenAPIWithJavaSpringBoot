@@ -17,4 +17,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: openapi-docs
-          path: https://github.com/kaushiknatua12345/OpenAPIWithJavaSpringBoot/blob/master/src/main/resources/static/api-docs.json
+          path: src/main/resources/static/api-docs.json
