@@ -44,7 +44,7 @@ jobs:
       run: sleep 30
 
     - name: Generate OpenAPI JSON
-      run: curl -o src/main/resources/static/api-docs.json http://localhost:8080/v4/api-docs
+      run: curl -o src/main/resources/static/api-docs.json http://localhost:8080/v3/api-docs
 
     - name: Convert OpenAPI JSON to YAML
       run: |
