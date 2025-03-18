@@ -12,7 +12,7 @@ This project demonstrates how to create an OpenAPI documentation using Spring Bo
 - [License](#license)
 
 ## Swagger
-To view Swagger.yaml file in UI mode, click the link: <a href="https://github.com/kaushiknatua12345/OpenAPIWithJavaSpringBoot/api-doc.json">Swagger Documentation</a>
+To view Swagger.yaml file in UI mode, click the link: <a href="[https://github.com/kaushiknatua12345/OpenAPIWithJavaSpringBoot/api-doc.json](https://github.com/kaushiknatua12345/OpenAPIWithJavaSpringBoot/blob/6e9a0aad4cfc853cdb240ca035af77cc8cd306fd/api-doc.json)">Swagger Documentation</a>
 
 ## Introduction
 
