@@ -29,6 +29,9 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-maven-
 
+    - name: Run tests with Maven Surefire
+      run: mvn test      
+
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
