@@ -46,13 +46,7 @@ jobs:
     - name: Convert OpenAPI JSON to YAML
       run: |
         pip install json2yaml
-        json2yaml src/main/resources/static/api-docs.json > src/main/resources/static/api-docs.yml
-
-    - name: Upload OpenAPI YAML
-      uses: actions/upload-artifact@v3
-      with:
-        name: openapi-yaml
-        path: src/main/resources/static/api-docs.yml
+        json2yaml src/main/resources/static/api-docs.json > src/main/resources/static/api-docs.yml   
 
   download:
 
